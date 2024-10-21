@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remotes -->
+  <remote name="gh"
+          fetch="https://github.com"
+          clone-depth="1" />
+
+  <!-- Device Tree -->
+  <project path="device/xiaomi/miatoll" name="ihsanulrahman/device_xiaomi_miatoll" remote="gh" revision="14-volt" />
+
+  <!-- Kernel Tree -->
+  <project path="kernel/xiaomi/sm6250" name="clarencekopitiam/kernel_xiaomi_sm6250" remote="gh" revision="15" />
+
+  <!-- Vendor Tree -->
+  <project path="vendor/xiaomi/miatoll" name="ihsanulrahman/vendor_xiaomi_miatoll" remote="gh" revision="udc" />
+
+  <!-- MIUI Cam -->
+  <project path="vendor/xiaomi/miuicamera" name="ihsanulrahman/vendor_xiaomi_miuicamera" remote="gh" revision="14" />
+
+   <!-- timekeep -->
+  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="gh" revision="lineage-21" />
+
+  <!-- hardware/xiaomi -->
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="gh" revision="lineage-21" />
+
+</manifest>
