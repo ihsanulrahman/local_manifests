@@ -1,32 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Remotes -->
-  <remote name="gh"
-          fetch="https://github.com"
-          clone-depth="1" />
+  <remote name="github"
+          fetch="https://github.com/" />
+  
+  <remote name="lineage"
+          fetch="https://github.com/LineageOS/" />
 
-  <!-- Device Tree -->
-  <project path="device/xiaomi/miatoll" name="ihsanulrahman/device_xiaomi_miatoll" remote="gh" revision="15-volt" />
+  <default revision="refs/heads/16-volt"
+          remote="github"
+          sync-j="8"
+          sync-c="true"
+          sync-s="true" />
 
-  <!-- Common Device Tree -->
-  <project path="device/xiaomi/sm6250-common" name="ihsanulrahman/device_xiaomi_sm6250-common" remote="gh" revision="15-volt" />
+  <!-- Device Trees -->
+  <project path="device/xiaomi/miatoll" 
+           name="ihsanulrahman/device_xiaomi_miatoll" 
+           remote="github" 
+           revision="16-volt" />
+  
+  <project path="device/xiaomi/sm6250-common" 
+           name="ihsanulrahman/device_xiaomi_sm6250-common" 
+           remote="github" 
+           revision="16-volt" />
 
-  <!-- Kernel Tree -->
-  <project path="kernel/xiaomi/sm6250" name="clarencekopitiam/kernel_xiaomi_sm6250" remote="gh" revision="15" />
+  <!-- Kernel -->
+  <project path="kernel/xiaomi/sm6250" 
+           name="ihsanulrahman/android_kernel_xiaomi_sm6250" 
+           remote="github" 
+           revision="16" 
+           clone-depth="1" />
 
-  <!-- Vendor Tree -->
-  <project path="vendor/xiaomi/miatoll" name="ihsanulrahman/vendor_xiaomi_miatoll" remote="gh" revision="15" />
-
-  <!-- Common Vendor Tree -->
-  <project path="vendor/xiaomi/sm6250-common" name="ihsanulrahman/vendor_xiaomi_sm6250-common" remote="gh" revision="15" />
+  <!-- Vendor -->
+  <project path="vendor/xiaomi/miatoll" 
+           name="ihsanulrahman/vendor_xiaomi_miatoll" 
+           remote="github" 
+           revision="16" />
+  
+  <project path="vendor/xiaomi/sm6250-common" 
+           name="ihsanulrahman/vendor_xiaomi_sm6250-common" 
+           remote="github" 
+           revision="16" />
 
   <!-- MIUI Cam -->
-  <project path="vendor/xiaomi/miuicamera" name="ihsanulrahman/vendor_xiaomi_miuicamera" remote="gh" revision="15" />
+  <project path="vendor/xiaomi/miuicamera" 
+           name="ihsanulrahman/vendor_xiaomi_miuicamera" 
+           remote="github" 
+           revision="16" />
 
-   <!-- Timekeep -->
-  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="gh" revision="lineage-21" />
-
-  <!-- hardware/xiaomi -->
-  <project path="hardware/xiaomi" name="ProjectPixelage/android_hardware_xiaomi" remote="gh" revision="15" />
-
+  <!-- TimeKeep -->
+  <project path="hardware/sony/timekeep" 
+           name="android_hardware_sony_timekeep" 
+           remote="lineage" 
+           revision="lineage-22.2" />
+  
 </manifest>

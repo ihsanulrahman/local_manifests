@@ -1,7 +1,7 @@
 To Initialize:
 --------------
 
-    git clone --depth=1 https://github.com/ihsanulrahman/local_manifests.git -b 15-volt .repo/local_manifests
+    git clone --depth=1 https://github.com/ihsanulrahman/local_manifests.git -b 16-volt .repo/local_manifests
 
 
 To Sync:
