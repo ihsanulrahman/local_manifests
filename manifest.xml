@@ -27,6 +27,6 @@
   <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="gh" revision="lineage-21" />
 
   <!-- hardware/xiaomi -->
-  <project path="hardware/xiaomi" name="ProjectPixelage/android_hardware_xiaomi" remote="gh" revision="15" />
+  <project path="hardware/xiaomi" name="c0smic-Lab/hardware_xiaomi" remote="gh" revision="15" />
 
 </manifest>
