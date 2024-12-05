@@ -12,7 +12,7 @@
   <project path="device/xiaomi/sm6250-common" name="ihsanulrahman/device_xiaomi_sm6250-common" remote="gh" revision="15-bliss" />
 
   <!-- Kernel Tree -->
-  <project path="kernel/xiaomi/sm6250" name="ihsanulrahman/android_kernel_xiaomi_sm6250" remote="gh" revision="15.0" />
+  <project path="kernel/xiaomi/sm6250" name="ihsanulrahman/android_kernel_xiaomi_sm6250" remote="gh" revision="nonksu" />
 
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/miatoll" name="ihsanulrahman/vendor_xiaomi_miatoll" remote="gh" revision="15" />
