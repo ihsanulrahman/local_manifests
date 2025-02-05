@@ -20,9 +20,6 @@
   <!-- Common Vendor Tree -->
   <project path="vendor/xiaomi/sm6250-common" name="ihsanulrahman/vendor_xiaomi_sm6250-common" remote="gh" revision="15" />
 
-  <!-- MIUI Cam -->
-  <project path="vendor/xiaomi/miuicamera" name="ihsanulrahman/vendor_xiaomi_miuicamera" remote="gh" revision="15" />
-
    <!-- Timekeep -->
   <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="gh" revision="lineage-22.0" />
 
