@@ -9,7 +9,7 @@
   <project path="device/xiaomi/miatoll" name="ihsanulrahman/device_xiaomi_miatoll" remote="gh" revision="14-volt" />
 
   <!-- Kernel Tree -->
-  <project path="kernel/xiaomi/sm6250" name="clarencekopitiam/kernel_xiaomi_sm6250" remote="gh" revision="15" />
+  <project path="kernel/xiaomi/sm6250" name="ihsanulrahman/android_kernel_xiaomi_sm6250" remote="gh" revision="old-nonksu" />
 
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/miatoll" name="ihsanulrahman/vendor_xiaomi_miatoll" remote="gh" revision="udc" />
