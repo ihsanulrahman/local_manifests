@@ -9,7 +9,7 @@
   <project path="device/xiaomi/miatoll" name="ihsanulrahman/device_xiaomi_miatoll" remote="gh" revision="15-volt" />
 
   <!-- Common Device Tree -->
-  <project path="device/xiaomi/sm6250-common" name="ihsanulrahman/device_xiaomi_sm6250-common" remote="gh" revision="15-volt" />
+  <project path="device/xiaomi/sm6250-common" name="ihsanulrahman/device_xiaomi_sm6250-common" remote="gh" revision="op" />
 
   <!-- Kernel Tree -->
   <project path="kernel/xiaomi/sm6250" name="ihsanulrahman/android_kernel_xiaomi_sm6250" remote="gh" revision="nonksu" />
@@ -18,7 +18,7 @@
   <project path="vendor/xiaomi/miatoll" name="ihsanulrahman/vendor_xiaomi_miatoll" remote="gh" revision="15" />
 
   <!-- Common Vendor Tree -->
-  <project path="vendor/xiaomi/sm6250-common" name="ihsanulrahman/vendor_xiaomi_sm6250-common" remote="gh" revision="15" />
+  <project path="vendor/xiaomi/sm6250-common" name="ihsanulrahman/vendor_xiaomi_sm6250-common" remote="gh" revision="test" />
 
    <!-- Timekeep -->
   <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="gh" revision="lineage-22.0" />
